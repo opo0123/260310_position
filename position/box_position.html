@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박스 포지션 연습</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .box1 {
+        width: 300px;
+        height: 300px;
+        background-color: antiquewhite;
+      }
+      .box2 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(237, 255, 170);
+      }
+      .box3 {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(168, 242, 255);
+      }
+      .box4 {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(243, 180, 255);
+      }
+      .box5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        background-color: rgb(255, 168, 186);
+      }
+      .box6 {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        background-color: rgb(203, 255, 203);
+      }
+      .box7 {
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+        background-color: rgb(161, 145, 255);
+    }
+      </style>
+  </head>
+  <body>
+    <p class="box1"></p>
+    <p class="box2"></p>
+    <p class="box3"></p>
+    <p class="box4"></p>
+    <p class="box5"></p>
+    <p class="box6"></p>
+    <p class="box7"></p>
+  </body>
+</html>
